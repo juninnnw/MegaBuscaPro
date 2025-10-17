@@ -756,9 +756,7 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 📞 Contato
 
-- **GitHub:** [@seu-usuario](https://github.com/seu-usuario)
-- **Email:** seu.email@example.com
-- **Issues:** [Reportar Bug](https://github.com/seu-usuario/mega-busca-pro/issues)
+- **GitHub:** [@juninnw](https://github.com/seu-usuario)
 
 ---
 
