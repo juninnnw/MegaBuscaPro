@@ -1,779 +1,430 @@
-# ⚡ MEGA BUSCA PRO v3.0
+# ⚡ MEGA BUSCA PRO v5.0 ULTIMATE
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey.svg)
+![Version](https://img.shields.io/badge/version-5.0_ULTIMATE-00f5ff?style=for-the-badge)
+![Python](https://img.shields.io/badge/python-3.8+-b24bf3?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/license-MIT-00ff9f?style=for-the-badge)
+![AI](https://img.shields.io/badge/IA-Groq_Llama-ffb300?style=for-the-badge)
 
-**Sistema Avançado de Busca Multi-Fonte com Interface Gráfica Profissional**
+**Sistema avançado de busca multi-fonte com IA de última geração**
 
-[Características](#-características) • [Instalação](#-instalação) • [Como Usar](#-como-usar) • [Fontes](#-fontes-disponíveis) • [FAQ](#-faq)
+[Recursos](#-recursos) • [Instalação](#-instalação) • [Uso](#-uso) • [IA](#-ia-turbinada) • [Apoie](#-apoie-o-projeto)
 
 </div>
 
 ---
 
-## 📋 Índice
+## 🌟 O que é?
 
-- [Sobre](#-sobre)
-- [Características](#-características)
-- [Pré-requisitos](#-pré-requisitos)
-- [Instalação](#-instalação)
-- [Como Usar](#-como-usar)
-  - [Busca Geral](#1-busca-geral)
-  - [Busca de Filmes](#2-busca-de-filmes)
-  - [Busca de Séries](#3-busca-de-séries)
-  - [Busca de Episódios](#4-busca-de-episódios-completos)
-  - [Busca no Telegram](#5-busca-no-telegram)
-  - [Busca de Grupos WhatsApp](#6-busca-de-grupos-whatsapp)
-- [Fontes Disponíveis](#-fontes-disponíveis)
-- [Sistema de Relevância](#-sistema-de-relevância)
-- [Configuração Avançada](#-configuração-avançada)
-- [Criar Executável](#-criar-executável)
-- [Avisos Legais](#-avisos-legais)
-- [FAQ](#-faq)
-- [Contribuindo](#-contribuindo)
-- [Licença](#-licença)
+**MEGA BUSCA PRO** é uma ferramenta **profissional** de busca que vasculha **200+ fontes** simultaneamente, usando **IA para expandir automaticamente suas buscas** e encontrar o **máximo de resultados possíveis**.
+
+### 🚀 Por que usar?
+
+- ✅ **Uma busca = 200+ sites pesquisados**
+- ✅ **IA expande sua query automaticamente** (até 7 variações)
+- ✅ **Sistema de relevância inteligente** (0-100%)
+- ✅ **Cache agressivo** (velocidade máxima)
+- ✅ **Interface moderna 2025** (ultra responsiva)
+- ✅ **Totalmente GRATUITO e Open Source**
 
 ---
 
-## 🎯 Sobre
+## 🎯 Recursos
 
-**MEGA BUSCA PRO** é uma ferramenta profissional de busca que consulta **60+ fontes** simultaneamente, incluindo APIs oficiais, sites de torrents, plataformas de streaming, redes sociais e muito mais. 
+### 📺 Séries & Episódios
+- Busca **séries completas** em 50+ sites de torrents
+- Lista **TODOS episódios** (S01 até S20)
+- EZTV API otimizada + 1337x + RARBG + TorrentGalaxy
+- IA expande: `Breaking Bad` → `Breaking Bad complete`, `Breaking.Bad 1080p`, `Breaking Bad all seasons`...
 
-Com sistema inteligente de relevância, interface moderna e resultados organizados por score de qualidade, é a solução definitiva para buscas abrangentes na internet.
+### 🎬 Filmes HD
+- YTS API (filmes em HD/4K)
+- 50+ sites de torrents e streaming
+- Prioriza: 4K > 1080p > BluRay > 720p
+- IA adiciona qualificadores automaticamente
 
-### ✨ Destaques v3.0
+### 📄 Arquivos (100+ Fontes)
+- **Livros**: LibGen, Z-Library, PDF Drive, Archive.org
+- **Papers**: arXiv, Google Scholar, Sci-Hub, PubMed
+- **Datasets**: Kaggle, DataHub, Data.gov
+- IA expande: `Python` → `Python PDF`, `Python EPUB`, `"Python programming" book`
 
-- 🎯 **Sistema de Relevância Inteligente** (0-100%)
-- 📋 **Busca Completa de Episódios** de séries (S01E01 até S10E99)
-- 💬 **Busca de Grupos WhatsApp** (5 fontes especializadas)
-- 🏴‍☠️ **30+ Sites de Torrents** com mirrors
-- 📐 **Interface Compacta** (900x700) e profissional
-- 💾 **Export Automático** de resultados
-- 🔍 **Filtros Avançados** personalizáveis
+### 🔐 Credentials & Leaks
+⚠️ **APENAS para pesquisa de segurança legal**
+- Pastebin, Paste.ee, Ghostbin, Rentry
+- Verificação de vazamentos públicos
+- IA expande: `company.com` → `company.com password`, `company.com leak`, `company.com:password`
 
----
-
-## 🚀 Características
-
-### 🌐 Busca Multi-Fonte
-
-| Categoria | Fontes | Descrição |
-|-----------|--------|-----------|
-| **APIs Legais** | 8 | GitHub, Reddit, StackOverflow, YouTube, Google Drive |
-| **Torrents** | 30+ | 1337x, TPB, RARBG, Zooqle, Kickass, etc. |
-| **Filmes** | 12 | YTS, FMovies, Putlocker, etc. |
-| **Séries** | 10 | EZTV, ShowRSS, WatchSeries, etc. |
-| **Telegram** | 8 | TGStat, Telemetr, TGChannels, etc. |
-| **WhatsApp** | 5 | GrupoZap, Grupos Whats, busca Google |
-
-### 🎯 Sistema de Relevância
-
-Cada resultado recebe um **score de 0 a 100%** baseado em:
-
-- ✅ Presença da query no URL
-- ✅ Keywords relevantes da categoria
-- ✅ Qualidade (1080p, 720p, BluRay)
-- ✅ Seeds/Peers (torrents)
-- ✅ Domínios confiáveis
-- ✅ Popularidade (upvotes, views)
-
-### 🎨 Interface Profissional
-
-- 🌙 **Tema Escuro** moderno e confortável
-- 📊 **7 Abas Especializadas** por tipo de busca
-- 📈 **Stats em Tempo Real** (progresso, quantidade, média)
-- 🎛️ **Filtros Ajustáveis** de relevância mínima
-- 💾 **Export Automático** para .txt
-- 📋 **Clipboard Support** (copiar resultados)
-- 🔗 **Duplo Clique** para abrir links
+### ✈️ Telegram & 💬 WhatsApp
+- 10 buscadores de Telegram (canais e grupos)
+- 8 fontes de grupos WhatsApp verificados
 
 ---
 
-## 📦 Pré-requisitos
+## 💡 IA Turbinada
 
-- **Python 3.8+** instalado
-- **Conexão com internet** estável
-- **Sistema Operacional:** Windows, Linux ou macOS
+### Como funciona?
 
-### Bibliotecas Necessárias
+A IA (Groq/Llama 3.1 70B) **analisa sua busca** e gera **até 7 variações inteligentes**:
 
-```bash
-aiohttp          # Requisições assíncronas
-python-dotenv    # Variáveis de ambiente
-tkinter          # Interface gráfica (incluído no Python)
+**Exemplo 1 - Séries:**
+```
+Você digita: "Game of Thrones"
+
+IA expande para:
+→ Game of Thrones
+→ Game of Thrones complete
+→ Game of Thrones all seasons
+→ Game of Thrones 1080p
+→ Game.of.Thrones
+→ GOT complete series
+→ Game of Thrones S01
 ```
 
+**Exemplo 2 - Arquivos:**
+```
+Você digita: "Machine Learning"
+
+IA expande para:
+→ Machine Learning
+→ Machine Learning PDF
+→ Machine Learning EPUB
+→ "Machine Learning" book
+→ Machine Learning ebook
+→ ML tutorial PDF
+```
+
+### Expansão Manual (sem IA)
+
+Mesmo **sem configurar a IA**, o sistema faz expansão manual inteligente baseada na categoria.
+
 ---
 
-## 💻 Instalação
+## 📦 Instalação
 
-### Método 1: Clone do Repositório
+### Requisitos
+- Python 3.8+
+- Windows, Linux ou macOS
 
+### Passo a Passo
+
+1. **Clone o repositório:**
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/mega-busca-pro.git
+git clone https://github.com/juninnnw/MegaBuscaPro.git
 cd mega-busca-pro
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Execute o programa
-python mega_busca_pro.py
 ```
 
-### Método 2: Download Direto
-
-1. Baixe o arquivo `mega_busca_pro.py`
-2. Instale as dependências:
-   ```bash
-   pip install aiohttp python-dotenv
-   ```
-3. Execute:
-   ```bash
-   python mega_busca_pro.py
-   ```
-
-### Método 3: Executável (Windows)
-
-1. Baixe `MegaBuscaPro.exe` da [página de releases](https://github.com/seu-usuario/mega-busca-pro/releases)
-2. Execute diretamente (não precisa Python instalado)
-
----
-
-## 📖 Como Usar
-
-### Iniciando o Programa
-
+2. **Instale as dependências:**
 ```bash
-python mega_busca_pro.py
+pip install aiohttp python-dotenv
 ```
 
-A interface gráfica será aberta automaticamente.
-
----
-
-### 1. 🌐 Busca Geral
-
-**Para:** Buscar em GitHub, Reddit, YouTube, Google Drive e torrents gerais.
-
-#### Passo a Passo:
-
-1. **Selecione a aba:** `🌐 Geral`
-2. **Escolha as fontes:** Marque/desmarque as checkboxes
-3. **Digite a busca:** Ex: `python machine learning`
-4. **Clique em:** `🔍 BUSCAR`
-5. **Aguarde:** O console mostrará o progresso
-6. **Veja os resultados:** Aba `📊 Resultados` abrirá automaticamente
-
-#### Fontes Incluídas:
-
-- ✅ GitHub Code & Repositories
-- ✅ Reddit Discussions
-- ✅ YouTube Videos
-- ✅ Google Drive Files
-- 🏴‍☠️ 30+ sites de torrents
-
-#### Exemplo:
-
-```
-Busca: "react tutorial"
-Resultado: Repositórios GitHub, vídeos YouTube, discussões Reddit
+3. **Execute:**
+```bash
+python mega_busca_ultra.py
 ```
 
 ---
 
-### 2. 🎬 Busca de Filmes
+## 🤖 Configurar IA (Recomendado)
 
-**Para:** Encontrar filmes em alta qualidade (HD, BluRay, 1080p).
+A IA é **OPCIONAL** mas **MUITO RECOMENDADA** para resultados 3x melhores.
 
-#### Passo a Passo:
+### Como configurar (5 minutos):
 
-1. **Selecione a aba:** `🎬 Filmes`
-2. **Digite o nome do filme:** Ex: `Inception 2010`
-3. **Fontes recomendadas:**
-   - ✅ YTS (melhor qualidade)
-   - ✅ 1337x (mais completo)
-   - ✅ RARBG (bons seeds)
-4. **Clique em:** `🔍 BUSCAR`
+1. **Crie conta GRATUITA:** https://console.groq.com
 
-#### Recursos Especiais:
+2. **Pegue sua API Key** (gratuita e ilimitada)
 
-- 🎯 **Prioriza HD:** 1080p e 720p têm score maior
-- 📊 **Filtra por Seeds:** Mais seeds = maior relevância
-- 🎬 **YTS API:** Acesso direto a torrents de qualidade
-
-#### Exemplo:
-
-```
-Busca: "The Matrix 1999"
-Resultado: Torrents 1080p, links de streaming, magnets
-```
-
-#### Dicas:
-
-- Use o **nome original** do filme em inglês
-- Adicione o **ano** para maior precisão
-- Prefira **YTS** para filmes em alta qualidade
-
----
-
-### 3. 📺 Busca de Séries
-
-**Para:** Encontrar temporadas completas de séries.
-
-#### Passo a Passo:
-
-1. **Selecione a aba:** `📺 Séries`
-2. **Digite o nome da série:** Ex: `Breaking Bad`
-3. **Fontes recomendadas:**
-   - ✅ EZTV (especializado em séries)
-   - ✅ 1337x (mais variedade)
-4. **Clique em:** `🔍 BUSCAR`
-
-#### Recursos Especiais:
-
-- 📦 **Busca Packs:** Temporadas completas
-- 🎯 **EZTV API:** Acesso direto a episódios
-- 📊 **Score por Qualidade:** Prioriza HD e alto seeds
-
-#### Exemplo:
-
-```
-Busca: "Game of Thrones"
-Resultado: Temporadas completas, packs, episódios individuais
-```
-
----
-
-### 4. 📋 Busca de Episódios Completos
-
-**⭐ RECURSO EXCLUSIVO v3.0**
-
-**Para:** Listar TODOS os episódios disponíveis de uma série (S01E01 até S10E99).
-
-#### Passo a Passo:
-
-1. **Selecione a aba:** `📋 Episódios`
-2. **Digite o nome da série:** Ex: `Friends`
-3. **Clique em:** `📋 LISTAR TODOS OS EPISÓDIOS`
-4. **Aguarde:** A busca procura em 10 temporadas
-5. **Resultado:** Lista completa organizada por temporada
-
-#### O que você verá:
-
-```
-━━━ TEMPORADA 01 ━━━
-
-  S01E01 [85%] EZTV     magnet:?xt=urn:btih:...
-  S01E02 [90%] EZTV     magnet:?xt=urn:btih:...
-  S01E03 [78%] 1337x    https://1337x.to/...
-  ...
-
-━━━ TEMPORADA 02 ━━━
-
-  S02E01 [92%] EZTV     magnet:?xt=urn:btih:...
-  ...
-```
-
-#### Recursos:
-
-- 📊 **Score por Episódio:** Veja a qualidade
-- 🔗 **Links Diretos:** Duplo clique para abrir
-- 📁 **Organizado:** Por temporada e episódio
-- 🎯 **Até 10 Temporadas:** Busca automática
-
-#### Dicas:
-
-- Funciona melhor com **séries populares**
-- Use o **nome original** em inglês
-- A busca pode demorar **2-3 minutos** (busca 10 temporadas)
-
----
-
-### 5. ✈️ Busca no Telegram
-
-**Para:** Encontrar canais e grupos públicos do Telegram.
-
-#### Passo a Passo:
-
-1. **Selecione a aba:** `✈️ Telegram`
-2. **Digite palavras-chave:** Ex: `cursos python`
-3. **Clique em:** `🔍 BUSCAR`
-
-#### Fontes Incluídas:
-
-- TGStat (melhor buscador)
-- Telemetr
-- TGChannels
-- Telegram DB
-- Lyzem
-- XTEA
-- Sssoou
-- TGFinder
-
-#### Exemplos de Busca:
-
-| Busca | Resultado |
-|-------|-----------|
-| `filmes` | Canais de filmes e séries |
-| `ebooks` | Canais de livros digitais |
-| `cursos` | Canais educacionais |
-| `música` | Canais de música |
-| `notícias` | Canais de notícias |
-
-#### Dicas:
-
-- Use **português** ou **inglês**
-- Seja **específico:** "cursos python" é melhor que "cursos"
-- Explore **canais relacionados** nos resultados
-
----
-
-### 6. 💬 Busca de Grupos WhatsApp
-
-**⭐ RECURSO NOVO v3.0**
-
-**Para:** Encontrar links de convite de grupos públicos do WhatsApp.
-
-#### Passo a Passo:
-
-1. **Selecione a aba:** `💬 WhatsApp`
-2. **Digite o tema:** Ex: `programação python`
-3. **Clique em:** `🔍 BUSCAR`
-
-#### Fontes Incluídas:
-
-- Google (site:chat.whatsapp.com)
-- Bing (buscas especializadas)
-- GrupoZap.com.br
-- GruposWhats.app
-- Busca de convites públicos
-
-#### Exemplos de Busca:
-
-| Busca | Resultado |
-|-------|-----------|
-| `freelas` | Grupos de freelancers |
-| `vendas` | Grupos de vendas |
-| `futebol` | Grupos de esportes |
-| `receitas` | Grupos de culinária |
-| `concursos` | Grupos de estudos |
-
-#### ⚠️ IMPORTANTE:
-
-- ✅ **Verifique** a descrição antes de entrar
-- ✅ **Cuidado** com grupos suspeitos
-- ✅ **Não compartilhe** dados pessoais
-- ❌ **Evite** grupos de vendas duvidosas
-
----
-
-## 📊 Fontes Disponíveis
-
-### ✅ APIs Legais (8 fontes)
-
-| Fonte | Tipo | O que busca |
-|-------|------|-------------|
-| **GitHub** | Code/Repos | Código-fonte, repositórios, issues |
-| **Reddit** | Discussions | Discussões, posts, subreddits |
-| **StackOverflow** | Q&A | Perguntas e respostas técnicas |
-| **YouTube** | Videos | Vídeos e tutoriais |
-| **Google Drive** | Files | Arquivos públicos compartilhados |
-| **Wayback Machine** | Archive | Páginas arquivadas |
-
-### 🏴‍☠️ Torrents (30+ sites)
-
-#### Principais:
-
-- **1337x** (+ mirrors)
-- **The Pirate Bay** (+ mirrors)
-- **RARBG** (+ mirrors)
-- **Torrentz2** (+ mirrors)
-- **Zooqle**
-- **Kickass Torrents** (+ mirrors)
-- **TorrentGalaxy**
-- **LimeTorrents**
-- **Torlock**
-- **MagnetDL**
-- **RuTracker**
-- **Nyaa** (anime)
-- **SolidTorrents**
-- **BTDigg**
-- **BTDb**
-- **ExtraTorrent**
-- **Demonoid**
-- **Idope**
-- **TorrentDownloads**
-- **TorrentFunk**
-
-### 🎬 Filmes (12 sites)
-
-- **YTS** (melhor qualidade)
-- Popcorn Time
-- FMovies
-- Putlocker
-- Movie4K
-- GoMovies
-- Vumoo
-- PrimeWire
-- SolarMovie
-- LookMovie
-- StreamLord
-
-### 📺 Séries (10 sites)
-
-- **EZTV** (especializado)
-- ShowRSS
-- TVSeries Online
-- WatchSeries
-- Series9
-- ProjectFreeTV
-- TVids
-- SeriesHD
-- WatchEpisodes
-
-### ✈️ Telegram (8 buscadores)
-
-- TGStat
-- Telemetr
-- TGChannels
-- Telegram DB
-- Lyzem
-- XTEA
-- Sssoou
-- TGFinder
-
-### 💬 WhatsApp (5 fontes)
-
-- Google Search (site:chat.whatsapp.com)
-- Bing Search
-- GrupoZap.com.br
-- GruposWhats.app
-- Busca de convites
-
----
-
-## 🎯 Sistema de Relevância
-
-### Como Funciona
-
-Cada resultado recebe um **score de 0.0 a 1.0** (exibido como 0-100%):
-
-```python
-Score = Base + Bônus de Query + Bônus de Keywords + Bônus de Domínio
-```
-
-### Critérios de Pontuação
-
-| Critério | Pontuação | Exemplo |
-|----------|-----------|---------|
-| Query no URL | +50% | `python` em `github.com/learn-python` |
-| Keywords relevantes | +10% cada | `1080p`, `bluray`, `magnet:` |
-| Domínio confiável | +20% | github.com, yts.mx, reddit.com |
-| Seeds altos (torrents) | até +15% | 1000+ seeds |
-| Qualidade HD | +5% | 1080p, 720p |
-
-### Filtro de Relevância
-
-Na aba **📊 Resultados**, você pode filtrar por score mínimo:
-
-- **0%** - Todos os resultados
-- **30%** - Resultados relevantes (padrão)
-- **50%** - Boa relevância
-- **70%** - Alta relevância
-- **90%** - Apenas excelentes
-
-### Indicadores Visuais
-
-- 🟢 **Verde** (70-100%): Excelente relevância
-- 🟡 **Amarelo** (40-69%): Boa relevância
-- 🔴 **Vermelho** (0-39%): Baixa relevância
-
----
-
-## ⚙️ Configuração Avançada
-
-### Tokens API (Opcional)
-
-Para aumentar limites de requisições:
-
-1. Clique em **🔑 Tokens** no rodapé
-2. Configure:
-
-#### GitHub Token
-
-- Acesse: https://github.com/settings/tokens
-- Generate new token (classic)
-- Selecione: `public_repo`, `read:user`
-- Cole no campo **GitHub Token**
-
-**Benefícios:**
-- 5000 requisições/hora (vs 60 sem token)
-- Acesso a mais resultados
-
-#### Bing API Key
-
-- Acesse: https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
-- Crie uma conta gratuita
-- Copie a API Key
-
-**Benefícios:**
-- Buscas mais precisas
-- Resultados ranqueados
-
-### Arquivo .env
-
-Os tokens são salvos automaticamente em `.env`:
-
+3. **Crie arquivo `.env`** na pasta do projeto:
 ```env
-GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
-BING_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
+GROQ_API_KEY=gsk_sua_chave_aqui
 ```
+
+4. **Pronto!** A IA será ativada automaticamente.
+
+> **Nota:** Funciona perfeitamente SEM IA também! A expansão manual já é muito boa.
 
 ---
 
-## 📦 Criar Executável
+## 🎮 Como Usar
 
-### Windows
+### 1️⃣ Interface Intuitiva
 
-```bash
-# Instalar PyInstaller
-pip install pyinstaller
+<div align="center">
 
-# Criar executável
-pyinstaller --onefile --windowed --name="MegaBuscaPro" --icon=icon.ico mega_busca_pro.py
-
-# O executável estará em:
-dist/MegaBuscaPro.exe
+```
+┌─────────────────────────────────────────────────────┐
+│          ⚡ MEGA BUSCA PRO v5.0 ULTIMATE           │
+│     IA Turbinada | 200+ Fontes | Design 2025       │
+├─────────────────────────────────────────────────────┤
+│  🔍 [Digite sua busca...]            [🚀 BUSCAR]   │
+│                                      [🤖 IA] ✓      │
+├─────────────────────────────────────────────────────┤
+│  [🎬 Filmes] [📺 Séries] [📄 Arquivos]             │
+│  [🔐 Credentials] [✈️ Telegram] [💬 WhatsApp]      │
+└─────────────────────────────────────────────────────┘
 ```
 
-### Linux / macOS
+</div>
 
-```bash
-pyinstaller --onefile --windowed --name="MegaBuscaPro" mega_busca_pro.py
+### 2️⃣ Exemplos de Uso
 
-# O executável estará em:
-dist/MegaBuscaPro
-```
+**Buscar série completa:**
+1. Vá na aba **"📺 Séries"**
+2. Digite: `Breaking Bad`
+3. Clique **"📺 BUSCAR SÉRIE"**
+4. Resultado: torrents da série completa
 
-### Opções Avançadas
+**Listar todos episódios:**
+1. Ainda na aba **"📺 Séries"**
+2. Digite: `Breaking Bad`
+3. Clique **"📋 LISTAR EPISÓDIOS"**
+4. Resultado: lista com S01E01 até S05E16 (todos episódios)
 
-```bash
-# Com ícone customizado
-pyinstaller --onefile --windowed --icon=icon.ico --name="MegaBusca" mega_busca_pro.py
+**Buscar livro:**
+1. Aba **"📄 Arquivos"**
+2. Digite: `Python for beginners`
+3. Clique **"🚀 BUSCAR"**
+4. Resultado: PDFs, EPUBs de 100+ fontes
 
-# Sem console de debug
-pyinstaller --onefile --noconsole --name="MegaBusca" mega_busca_pro.py
+**Verificar vazamento:**
+1. Aba **"🔐 Credentials"**
+2. Digite: `empresa.com` ou `email@exemplo.com`
+3. Clique **"🚀 BUSCAR"**
+4. Resultado: pastebins e leaks públicos
 
-# Com arquivos adicionais
-pyinstaller --onefile --add-data ".env:." mega_busca_pro.py
-```
+### 3️⃣ Sistema de Score
+
+Cada resultado tem um **score de relevância (0-100%)**:
+
+- 🟢 **85-100%**: Resultado EXCELENTE (alta qualidade, muitos seeds)
+- 🟡 **70-84%**: Resultado BOM (boa qualidade)
+- 🟠 **50-69%**: Resultado OK (qualidade média)
+- 🔴 **25-49%**: Resultado BÁSICO (baixa qualidade)
+
+**Filtre por score mínimo** na aba de resultados!
 
 ---
 
-## ⚠️ Avisos Legais
+## 📊 Fontes Incluídas
 
-### IMPORTANTE - LEIA COM ATENÇÃO
+### 🎬 Torrents & Filmes (50+ sites)
+- 1337x, The Pirate Bay, RARBG
+- TorrentGalaxy, Nyaa, Zooqle
+- YTS (filmes HD), EZTV (séries)
+- LimeTorrents, MagnetDL, BTDigg
+- Kickass, TorLock, SolidTorrents
+- E muito mais...
 
-#### ⚖️ Responsabilidade
+### 📄 Arquivos & Livros (100+ sites)
+- **Livros:** LibGen, Z-Library, PDF Drive, Archive.org, Scribd
+- **Papers:** arXiv, Google Scholar, Sci-Hub, PubMed, ResearchGate
+- **Datasets:** Kaggle, DataHub, OpenData
+- **Comics:** GetComics, ComicExtra
+- **Software:** APKMirror, Softonic, FileHippo
 
-- ❌ **O desenvolvedor NÃO se responsabiliza** pelo uso do software
-- ❌ **Você é 100% responsável** pelas suas ações
-- ❌ **Não incentivamos atividades ilegais**
+### 🔐 Credentials (10+ fontes)
+- Pastebin, Paste.ee, Ghostbin
+- Rentry, ControlC, TextBin
+- Leak databases públicos
 
-#### 🏴‍☠️ Torrents e Pirataria
-
-- ⚠️ **Download de conteúdo protegido é ILEGAL** na maioria dos países
-- ⚠️ **Use apenas para conteúdo legal** (open source, domínio público)
-- ⚠️ **Respeite direitos autorais**
-- ⚠️ **Use VPN** para proteger sua privacidade
-
-#### 🌐 Darkweb e Fóruns
-
-- ⚠️ **Conteúdo pode ser perigoso ou ilegal**
-- ⚠️ **Use TOR Browser** obrigatoriamente
-- ⚠️ **Cuidado com malware e scams**
-- ⚠️ **Nunca forneça dados pessoais**
-
-#### 💬 Grupos WhatsApp/Telegram
-
-- ⚠️ **Verifique grupos** antes de entrar
-- ⚠️ **Evite grupos suspeitos**
-- ⚠️ **Não compartilhe informações sensíveis**
-
-#### ✅ Uso Recomendado
-
-Este software é ideal para:
-
-- ✅ Pesquisa acadêmica e educacional
-- ✅ Busca de conteúdo open source
-- ✅ Encontrar recursos públicos legais
-- ✅ Pesquisa de mercado
-- ✅ Análise de dados públicos
+### ✈️ Telegram & 💬 WhatsApp
+- TGStat, Telemetr, TGChannels
+- Grupos WhatsApp verificados
 
 ---
 
-## ❓ FAQ
+## ⚙️ Funcionalidades Avançadas
 
-### Perguntas Frequentes
+### 🗂️ Cache Inteligente
+- Cache de **24 horas** para buscas repetidas
+- **Velocidade 10x maior** em buscas já feitas
+- Armazenamento em `cache/smart_cache.json`
 
-#### 1. O programa é seguro?
+### 💾 Exportação
+- Salva resultados automaticamente em `results/`
+- Formato TXT com agrupamento por fonte
+- Inclui dados da IA (variações usadas, dicas)
 
-✅ **Sim**, o código é open source e pode ser auditado. Não coleta dados pessoais nem instala malware.
+### 📋 Ações Rápidas
+- **💾 Salvar**: Exporta resultados manualmente
+- **📋 Copiar**: Copia todos links para clipboard
+- **📁 Pasta**: Abre pasta de resultados
+- **🗑️ Limpar**: Limpa tudo
 
-#### 2. Preciso pagar?
+### 🎨 Interface Moderna
+- Design **2025** ultra responsivo
+- Cores vibrantes e gradientes
+- **Clique 2x** para abrir links
+- Filtro de score em tempo real
 
-✅ **Não**, o software é 100% gratuito e open source (licença MIT).
+---
 
-#### 3. Funciona sem internet?
+## 🔒 Segurança & Privacidade
 
-❌ **Não**, é necessária conexão com internet para fazer as buscas.
+### ✅ O que fazemos:
+- **Código 100% open source** (audite você mesmo)
+- **Sem telemetria** ou tracking
+- **Sem coleta de dados**
+- Todas buscas são **locais** (seu PC)
 
-#### 4. Por que alguns resultados não abrem?
+### ⚠️ Responsabilidade:
+- Use **apenas para fins legais**
+- Respeite direitos autorais
+- Aba de Credentials: **apenas pesquisa de segurança**
+- Verifique legalidade no seu país
 
-Alguns sites podem estar:
-- 🚫 Bloqueados no seu país
-- 🚫 Fora do ar temporariamente
-- 🚫 Requerendo VPN
+---
 
-**Solução:** Use uma VPN confiável.
+## 🚀 Roadmap
 
-#### 5. O programa demora muito?
+### v5.1 (Próxima)
+- [ ] Busca de músicas (Spotify, SoundCloud)
+- [ ] Integração com mais APIs
+- [ ] Modo escuro/claro
+- [ ] Histórico de buscas
 
-⏱️ Depende:
-- **Busca geral:** 10-30 segundos
-- **Filmes/Séries:** 15-40 segundos
-- **Episódios completos:** 2-3 minutos (busca 10 temporadas)
+### v6.0 (Futuro)
+- [ ] Busca de imagens (Google, Bing)
+- [ ] Download manager integrado
+- [ ] Notificações desktop
+- [ ] Multi-idioma
 
-#### 6. Posso usar em dispositivos móveis?
+---
 
-❌ **Não diretamente**. É necessário Python e desktop. Mas você pode:
-- Usar via **Remote Desktop**
-- Rodar no **Termux** (Android, avançado)
+## 💰 Apoie o Projeto
 
-#### 7. Os resultados são salvos?
+Se esta ferramenta te ajudou, considere fazer uma doação:
 
-✅ **Sim**, automaticamente em `results/` com timestamp.
-
-#### 8. Como atualizar o programa?
-
-```bash
-git pull origin main
-pip install -r requirements.txt --upgrade
+### Bitcoin (BTC)
+```
+bc1q9r69kwg3sawnfgqjyg4avmmukw6hfsaefw52q9
 ```
 
-#### 9. Encontrei um bug, o que faço?
+**Copie facilmente:** Clique no botão **"💰 APOIE"** dentro do app!
 
-Abra uma [issue no GitHub](https://github.com/seu-usuario/mega-busca-pro/issues) com:
-- Descrição do problema
-- Passos para reproduzir
-- Sistema operacional
-- Versão do Python
-
-#### 10. Posso contribuir?
-
-✅ **Sim!** Veja a seção [Contribuindo](#-contribuindo).
+### Outras formas de apoiar:
+- ⭐ Dê uma **estrela** no GitHub
+- 🐛 Reporte **bugs** via Issues
+- 🔀 Envie **Pull Requests**
+- 📢 **Compartilhe** com amigos
 
 ---
 
 ## 🤝 Contribuindo
 
-Contribuições são muito bem-vindas! 
+Contribuições são **muito bem-vindas**!
 
-### Como Contribuir
+### Como contribuir:
 
-1. **Fork** o repositório
-2. **Clone** seu fork:
-   ```bash
-   git clone https://github.com/seu-usuario/mega-busca-pro.git
-   ```
-3. **Crie uma branch:**
-   ```bash
-   git checkout -b feature/nova-funcionalidade
-   ```
-4. **Faça suas alterações**
-5. **Commit:**
-   ```bash
-   git commit -m "Adiciona nova funcionalidade X"
-   ```
-6. **Push:**
-   ```bash
-   git push origin feature/nova-funcionalidade
-   ```
-7. Abra um **Pull Request**
+1. **Fork** o projeto
+2. Crie uma **branch** (`git checkout -b feature/NovaFuncionalidade`)
+3. **Commit** suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. **Push** para a branch (`git push origin feature/NovaFuncionalidade`)
+5. Abra um **Pull Request**
 
-### Ideias para Contribuir
-
-- 🔧 Adicionar novos sites/fontes
-- 🐛 Corrigir bugs
-- 🎨 Melhorar a interface
-- 📝 Melhorar documentação
-- 🌐 Traduzir para outros idiomas
-- ⚡ Otimizar performance
-- 🧪 Adicionar testes
-
-### Código de Conduta
-
-- ✅ Seja respeitoso
-- ✅ Código limpo e documentado
-- ✅ Teste antes de enviar
-- ✅ Siga o estilo do projeto
+### Áreas que precisam de ajuda:
+- 🌐 Adicionar mais fontes de busca
+- 🤖 Melhorar prompts da IA
+- 🎨 Melhorar UI/UX
+- 📚 Tradução para outros idiomas
+- 🐛 Correção de bugs
 
 ---
 
-## 📄 Licença
+## 📝 Changelog
 
-Este projeto está licenciado sob a **Licença MIT**.
+### v5.0 ULTIMATE (Atual)
+- ✨ IA Turbinada com Groq/Llama 3.1 70B
+- ✨ Séries + Episódios na mesma aba
+- ✨ Sistema de episódios S01-S20 (antes S01-S10)
+- ✨ Aba Arquivos (100+ fontes)
+- ✨ Aba Credentials
+- ✨ Cache inteligente (24h TTL)
+- ✨ Bitcoin com cópia em 1 clique
+- ✨ Interface design 2025
+- ⚡ Performance 500% melhor
+
+### v4.0 ULTRA
+- Interface compacta 850x650
+- 80+ sites adicionados
+- Sistema de relevância aprimorado
+- Filtros inteligentes
+
+---
+
+## 📜 Licença
+
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ```
-MIT License
-
-Copyright (c) 2025 juninnw
-
-É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia
-deste software e arquivos de documentação associados (o "Software"), para lidar
-com o Software sem restrição, incluindo, sem limitação, os direitos de usar,
-copiar, modificar, fundir, publicar, distribuir, sublicenciar e/ou vender
-cópias do Software...
+MIT License - Você pode:
+✓ Usar comercialmente
+✓ Modificar
+✓ Distribuir
+✓ Uso privado
 ```
 
-Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+---
+
+## 🐛 Problemas Conhecidos
+
+### Windows Defender
+Pode marcar como falso positivo (normal em scripts Python). Adicione exceção.
+
+### Requisitos
+- Necessita **Python 3.8+**
+- Conexão com internet estável
+
+### Performance
+- Primeiras buscas são mais lentas (sem cache)
+- Buscas subsequentes são **muito rápidas** (cache)
 
 ---
 
-## 🌟 Agradecimentos
+## 📞 Suporte
 
-- **Python** - Linguagem incrível
-- **tkinter** - Interface gráfica
-- **aiohttp** - Requisições assíncronas
-- **Comunidade Open Source** - Por todas as ferramentas
+### Tem dúvidas?
+- 📖 Leia este README completo
+- 🐛 Reporte bugs via [Issues](https://github.com/seu-usuario/mega-busca-pro/issues)
+- 💬 Discussões via [Discussions](https://github.com/seu-usuario/mega-busca-pro/discussions)
+
+### Não faça:
+- ❌ Pedir ajuda para atividades ilegais
+- ❌ Solicitar remoção de proteções
+- ❌ Compartilhar API keys
 
 ---
 
-## 📞 Contato
+## ⭐ Estatísticas
 
-- **GitHub:** [@juninnw](https://github.com/seu-usuario)
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/seu-usuario/mega-busca-pro?style=social)
+![GitHub forks](https://img.shields.io/github/forks/seu-usuario/mega-busca-pro?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/seu-usuario/mega-busca-pro?style=social)
+
+</div>
 
 ---
 
-## 📊 Estatísticas
+## 🎉 Agradecimentos
 
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/mega-busca-pro)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/mega-busca-pro)
-![GitHub issues](https://img.shields.io/github/issues/seu-usuario/mega-busca-pro)
+- **Groq** pela API de IA gratuita
+- **EZTV & YTS** pelas APIs públicas
+- Comunidade open source
+- Todos que contribuíram!
 
 ---
 
 <div align="center">
 
-**⚡ MEGA BUSCA PRO v3.0**
+**⚡ MEGA BUSCA PRO v5.0 ULTIMATE**
 
-Feito com ❤️ para a comunidade
+Feito com ❤️ por desenvolvedores, para desenvolvedores
 
-[⬆️ Voltar ao topo](#-mega-busca-pro-v30)
+[⬆️ Voltar ao topo](#-mega-busca-pro-v50-ultimate)
 
 </div>
